@@ -39,8 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileBasedWordStore.cs" />
     <Compile Include="IStoreWords.cs" />
     <Compile Include="PhraseMaker.cs" />
+    <Compile Include="PhraseMakerFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

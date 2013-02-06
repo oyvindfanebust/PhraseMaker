@@ -2,11 +2,11 @@
 {
     public class PhraseMaker
     {
-        private IStoreWords _wordStore;
+        private readonly IStoreWords _wordStore;
 
-        public IStoreWords WordStore
+        public PhraseMaker(IStoreWords wordStore)
         {
-            set { _wordStore = value; }
+            _wordStore = wordStore;
         }
 
         public string GeneratePhrase()

@@ -14,7 +14,7 @@ namespace PhraseMaker.Tests
                     Noun = "banan"
                 };
 
-            var phraseMaker = new PhraseMaker { WordStore = wordStore };
+            var phraseMaker = new PhraseMaker(wordStore);
 
             var phrase = phraseMaker.GeneratePhrase();
 
