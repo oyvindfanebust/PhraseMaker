@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PhraseMaker</id>
+    <version>1.0.0</version>
+    <authors>Øyvind Fanebust</authors>
+    <owners>Øyvind Fanebust</owners>
+    <projectUrl>https://github.com/OyvindFanebust/PhraseMaker</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Phrase maker</description>
+    <releaseNotes>Library for generating random phrases.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>phrase word generator</tags>
+  </metadata>
+  <files>
+    <file src="Build\PhraseMaker.dll" target="lib\net40" />
+    <file src="Build\PhraseMaker.pdb" target="lib\net40" />
+  </files>
+</package>
