@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>PhraseMaker</id>
-    <version>1.0.0</version>
+    <version>$version$</version>
     <authors>Øyvind Fanebust</authors>
     <owners>Øyvind Fanebust</owners>
     <projectUrl>https://github.com/OyvindFanebust/PhraseMaker</projectUrl>
