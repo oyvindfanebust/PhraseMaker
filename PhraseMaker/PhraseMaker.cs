@@ -1,6 +1,6 @@
 ﻿namespace PhraseMaker
 {
-    public class PhraseMaker
+    public class PhraseMaker : IMakePhrases
     {
         private readonly IStoreWords _wordStore;
 

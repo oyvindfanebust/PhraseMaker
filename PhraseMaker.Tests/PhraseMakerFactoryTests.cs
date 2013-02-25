@@ -10,7 +10,7 @@ namespace PhraseMaker.Tests
         {
             var factory = new PhraseMakerFactory();
 
-            PhraseMaker phraseMaker = factory.Create("no-nb");
+            var phraseMaker = factory.Create("no-nb");
 
             string phrase = phraseMaker.GeneratePhrase();
 

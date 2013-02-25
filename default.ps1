@@ -4,7 +4,7 @@ properties {
   $pwd = Split-Path $psake.build_script_file	
   $configuration = "Release"
   $buildDir = "$pwd\Build\"
-  $version = "1.1.0"
+  $version = "1.1.1"
 }
 
 task default -depends Build

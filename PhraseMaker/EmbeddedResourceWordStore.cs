@@ -13,14 +13,12 @@ namespace PhraseMaker
         private readonly string[] _nouns;
 
 
-        public EmbeddedResourceWordStore(string prefix)
+        public EmbeddedResourceWordStore(Assembly assembly, string @namespace)
         {
             _randomizer = (from, to) => _random.Next(from, to);
 
-            Assembly assembly = Assembly.GetExecutingAssembly();
-
-            _adjectives = GetResource(prefix, assembly, "Adjectives.wrd");
-            _nouns = GetResource(prefix, assembly, "Nouns.wrd");
+            _adjectives = GetResource(@namespace, assembly, "Adjectives.wrd");
+            _nouns = GetResource(@namespace, assembly, "Nouns.wrd");
         }
 
         public string GetNoun()

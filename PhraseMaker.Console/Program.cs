@@ -14,7 +14,7 @@ namespace PhraseMaker.Console
 
             var factory = new PhraseMakerFactory();
             var path = args[0];
-            PhraseMaker phraseMaker = factory.Create(path);
+            var phraseMaker = factory.Create(path);
             System.Console.WriteLine("Press 'q' to exit.");
             ConsoleKeyInfo key = System.Console.ReadKey();
             while(key.KeyChar != 'q')

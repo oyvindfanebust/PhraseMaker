@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="EmbeddedResourceWordStore.cs" />
     <Compile Include="FileBasedWordStore.cs" />
+    <Compile Include="IMakePhrases.cs" />
     <Compile Include="IStoreWords.cs" />
     <Compile Include="PhraseMaker.cs" />
     <Compile Include="PhraseMakerFactory.cs" />
