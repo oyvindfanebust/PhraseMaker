@@ -45,7 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmbeddedResourceWordStoreTests.cs" />
     <Compile Include="FileBasedWordStoreTests.cs" />
+    <EmbeddedResource Include="Embedded\Adjectives.wrd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Embedded\Nouns.wrd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Embedded\NoNoun\Adjectives.wrd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Embedded\NoAdjective\Nouns.wrd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <None Include="no-adj\Nouns.wrd">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
